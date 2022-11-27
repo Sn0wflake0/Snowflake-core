@@ -1,0 +1,38 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.sn0wflake0",
+		"id": "snowflakemc",
+		"version": "${version}",
+		"metadata": {
+			"name": "SnowflakeMC Core",
+			"description": "A snowflakemc mod",
+			"contributors": {
+				"Sn0wflake0": "Owner"
+			},
+			"contact": {
+				"homepage": "https://github.com/Sn0wflake0/",
+				"sources": "https://github.com/Sn0wflake0/Snowflake-core"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"server_init": ["io.github.sn0wflake0.main.Main","io.github.sn0wflake0.cmd.Main"]
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": ["cmd.mixins.json","mod.mixins.json"]
+}
