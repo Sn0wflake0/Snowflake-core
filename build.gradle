@@ -27,14 +27,13 @@ dependencies {
 	//		mappings(variantOf(libs.quilt.mappings) { classifier 'v2' })
 	modImplementation libs.quilt.loader
 	modImplementation libs.quilted.fabric.api
-//	modImplementation libs.fantasy
-//	modImplementation libs.styled.player.list
-//	modImplementation libs.sidebar.api
-//	modImplementation libs.playerdata.api
-//	modImplementation libs.hologram.api
-//	modImplementation libs.placeholder.api
-//	modImplementation libs.sgui
-//	modImplementation libs.plasmid
+	modImplementation libs.fantasy
+	modImplementation libs.sidebar.api
+	modImplementation libs.playerdata.api
+	modImplementation libs.hologram.api
+	modImplementation libs.placeholder.api
+	modImplementation libs.sgui
+	modImplementation libs.plasmid
 
 	processResources {
 		inputs.property 'version', version

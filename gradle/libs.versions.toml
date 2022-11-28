@@ -4,12 +4,27 @@ minecraft = "1.19.2"
 quilt_mappings = "1.19.2+build.28"
 quilt_loader = "0.18.1-beta.18"
 
-quilted_fabric_api = "4.0.0-beta.21+0.67.0-1.19.2"
+quilted_fabric_api = "4.0.0-beta.22+0.67.1-1.19.2"
+fantasy = "0.4.7+1.19.2"
+sidebar_api = "0.1.1+1.19"
+playerdata_api = "0.2.2+1.19.2"
+hologram_api = "0.2.2+1.19"
+placeholder_api = "2.0.0-pre.1+1.19.2"
+sgui = "1.1.5+1.19.1"
+plasmid = "0.5+1.19.2-SNAPSHOT"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 quilt_mappings = { module = "net.fabricmc:yarn", version.ref = "quilt_mappings" }
 quilt_loader = { module = "org.quiltmc:quilt-loader", version.ref = "quilt_loader" }
+fantasy = {module = "xyz.nucleoid:fantasy", version.ref = "fantasy"}
+sidebar_api = {module = "eu.pb4:sidebar-api", version.ref = "sidebar_api"}
+playerdata_api = {module = "eu.pb4:player-data-api", version.ref = "playerdata_api"}
+hologram_api = {module = "eu.pb4:hologram-api", version.ref = "hologram_api"}
+placeholder_api = {module = "eu.pb4:placeholder-api", version.ref = "placeholder_api"}
+sgui = {module = "eu.pb4:sgui", version.ref = "sgui"}
+plasmid = {module = "xyz.nucleoid:plasmid", version.ref = "plasmid"}
+
 
 quilted_fabric_api = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "quilted_fabric_api" }
 quilted_fabric_api_deprecated = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api-deprecated", version.ref = "quilted_fabric_api" }
